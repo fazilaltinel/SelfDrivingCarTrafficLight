@@ -42,3 +42,6 @@ Ubuntu 14.04 LTS is used for the tests.
 	$ python detectRecognizeLight.py
 	```
 + Result video will be located under `out/` directory.
+
+## License
+The source code is licensed under [GNU General Public License v3.0](./LICENSE).
