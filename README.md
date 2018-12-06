@@ -5,7 +5,7 @@
 This repository contains TensorFlow implementation of traffic light detection and classification task of images taken using a self-driving car.
 
 ### Method
-In order to detect traffic lights, a pre-trained model called Single Shot Multibox Detector (SSD) with Inception v2 from the TensorFlow Zoo on MS-COCO dataset is used.  The object detector is lightweight. However, the detection accuracy is not high under some conditions such as occlusion. More complex object detectors can perform better.
+In order to detect traffic lights, a pre-trained model is used (Single Shot Multibox Detector (SSD) with Inception v2 from the TensorFlow Zoo on MS-COCO dataset).  The object detector is lightweight. However, the detection accuracy is not high under some conditions such as occlusion. More complex object detectors can perform better.
 
 After the traffic light is detected in an image, a simple method is exploited to classify the color of the traffic light. To classify the color of the traffic light, brightness feature that uses HSV color space is employed. This method cannot achieve very accurate results. However, it is a fast method for real-time inference. For better accuracy, a deep learning based method could be used.
 
