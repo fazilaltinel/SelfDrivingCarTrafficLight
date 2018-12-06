@@ -2,7 +2,7 @@
 # Self-Driving Car Traffic Light Detection and Classification
 
 ## Overview
-This repository contains TensorFlow implementation of traffic light detection and classification task for Udacity annotated self-driving dataset.
+This repository contains a simple TensorFlow implementation of traffic light detection and classification task for Udacity annotated self-driving dataset.
 
 ![](/out/demo.gif)
 
