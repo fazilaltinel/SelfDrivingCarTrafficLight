@@ -3,6 +3,7 @@
 
 ## Overview
 This repository contains TensorFlow implementation of traffic light detection and classification task for Udacity annotated self-driving dataset.
+![](/out/demo.gif)
 
 ### Method
 In order to detect traffic lights, a pre-trained model is used (Single Shot Multibox Detector (SSD) with Inception v2 from the TensorFlow Zoo on MS-COCO dataset).  The object detector is lightweight. However, the detection accuracy is not high under some conditions such as occlusion. More complex object detectors can perform better.
