@@ -47,8 +47,8 @@ def recognize_color(im):
     # Average brightness of all the pixels on value channel & grayscale for the masked image
     area = 9.0*22
     avg_brightness_upper = (np.sum(upper_part_g[:,:]) + np.sum(upper_part_v[:,:]))/area
-    avg_brightness_mid =  (np.sum(mid_part_g[:, :]) + np.sum(mid_part_v[:, :]))/area
-    avg_brightness_lower =  (np.sum(lower_part_g[:, :]) + np.sum(lower_part_v[:, :]))/area
+    avg_brightness_mid = (np.sum(mid_part_g[:, :]) + np.sum(mid_part_v[:, :]))/area
+    avg_brightness_lower = (np.sum(lower_part_g[:, :]) + np.sum(lower_part_v[:, :]))/area
 
     # Feature vector
     feature = []
